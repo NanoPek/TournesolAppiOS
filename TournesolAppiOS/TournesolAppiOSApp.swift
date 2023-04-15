@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct TournesolAppiOSApp: App {
     var body: some Scene {
-        WindowGroup {
+        return WindowGroup {
             ContentView()
         }
     }

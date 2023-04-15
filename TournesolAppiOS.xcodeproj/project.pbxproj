@@ -14,6 +14,15 @@
 		3E37795A29BE7F7E00094242 /* TournesolAppiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37795929BE7F7E00094242 /* TournesolAppiOSTests.swift */; };
 		3E37796429BE7F7E00094242 /* TournesolAppiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37796329BE7F7E00094242 /* TournesolAppiOSUITests.swift */; };
 		3E37796629BE7F7E00094242 /* TournesolAppiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37796529BE7F7E00094242 /* TournesolAppiOSUITestsLaunchTests.swift */; };
+		3E37797329BE877000094242 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37797229BE877000094242 /* Header.swift */; };
+		3E37797729BE892B00094242 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37797629BE892B00094242 /* Recommendation.swift */; };
+		3E37797929BE8AFD00094242 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37797829BE8AFD00094242 /* SampleData.swift */; };
+		3E37797B29BE8B5300094242 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37797A29BE8B5300094242 /* VideoView.swift */; };
+		3E37797F29BE8F5B00094242 /* sampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E37797E29BE8F5B00094242 /* sampleData.json */; };
+		3E9EEE2929D082B1009637F5 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EEE2829D082B1009637F5 /* UIImageView.swift */; };
+		5133D3D793E2660015AE1B04 /* Pods_TournesolAppiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67CEDA0823EACF443B0D402 /* Pods_TournesolAppiOS.framework */; };
+		5320AD655F4FCCDBD76504F9 /* Pods_TournesolAppiOS_TournesolAppiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ECC90CFC74E96E009F855D /* Pods_TournesolAppiOS_TournesolAppiOSUITests.framework */; };
+		85AC6D4D0C5C8AE6BBD70A84 /* Pods_TournesolAppiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB437F791ABCA8787884C6C /* Pods_TournesolAppiOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30581DFA58CE702CCFC66D9F /* Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E37618129EB410E007BB55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3E37794529BE7F7C00094242 /* TournesolAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TournesolAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E37794829BE7F7C00094242 /* TournesolAppiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournesolAppiOSApp.swift; sourceTree = "<group>"; };
 		3E37794A29BE7F7C00094242 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,20 @@
 		3E37795F29BE7F7E00094242 /* TournesolAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TournesolAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E37796329BE7F7E00094242 /* TournesolAppiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournesolAppiOSUITests.swift; sourceTree = "<group>"; };
 		3E37796529BE7F7E00094242 /* TournesolAppiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournesolAppiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E37797229BE877000094242 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		3E37797629BE892B00094242 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		3E37797829BE8AFD00094242 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		3E37797A29BE8B5300094242 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		3E37797E29BE8F5B00094242 /* sampleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleData.json; sourceTree = "<group>"; };
+		3E9EEE2829D082B1009637F5 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		4BB437F791ABCA8787884C6C /* Pods_TournesolAppiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TournesolAppiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9198388FD95DA4385F889B94 /* Pods-TournesolAppiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournesolAppiOSTests.release.xcconfig"; path = "Target Support Files/Pods-TournesolAppiOSTests/Pods-TournesolAppiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF5CDEFE2AF94CC160212F3B /* Pods-TournesolAppiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournesolAppiOS.release.xcconfig"; path = "Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS.release.xcconfig"; sourceTree = "<group>"; };
+		C7D7620DE08F51192670E9E6 /* Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0ECC90CFC74E96E009F855D /* Pods_TournesolAppiOS_TournesolAppiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TournesolAppiOS_TournesolAppiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B95452AE843D8D5F732518 /* Pods-TournesolAppiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournesolAppiOS.debug.xcconfig"; path = "Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0F8DC8BD7FFAA65549889D /* Pods-TournesolAppiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournesolAppiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TournesolAppiOSTests/Pods-TournesolAppiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F67CEDA0823EACF443B0D402 /* Pods_TournesolAppiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TournesolAppiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5133D3D793E2660015AE1B04 /* Pods_TournesolAppiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85AC6D4D0C5C8AE6BBD70A84 /* Pods_TournesolAppiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5320AD655F4FCCDBD76504F9 /* Pods_TournesolAppiOS_TournesolAppiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,8 @@
 				3E37795829BE7F7E00094242 /* TournesolAppiOSTests */,
 				3E37796229BE7F7E00094242 /* TournesolAppiOSUITests */,
 				3E37794629BE7F7C00094242 /* Products */,
+				F20D4BD269D2D1E126D84A16 /* Pods */,
+				C80226841E03F89FCCE1D74D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +124,11 @@
 		3E37794729BE7F7C00094242 /* TournesolAppiOS */ = {
 			isa = PBXGroup;
 			children = (
+				3E37618129EB410E007BB55F /* Info.plist */,
+				3E37798029BE8FB400094242 /* Views */,
+				3E37797D29BE8CFA00094242 /* Model */,
+				3E37797C29BE8CCB00094242 /* Resources */,
 				3E37794829BE7F7C00094242 /* TournesolAppiOSApp.swift */,
-				3E37794A29BE7F7C00094242 /* ContentView.swift */,
 				3E37794C29BE7F7E00094242 /* Assets.xcassets */,
 				3E37794E29BE7F7E00094242 /* Preview Content */,
 			);
@@ -127,6 +160,57 @@
 			path = TournesolAppiOSUITests;
 			sourceTree = "<group>";
 		};
+		3E37797C29BE8CCB00094242 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E37797E29BE8F5B00094242 /* sampleData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3E37797D29BE8CFA00094242 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E37797629BE892B00094242 /* Recommendation.swift */,
+				3E37797829BE8AFD00094242 /* SampleData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E37798029BE8FB400094242 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E37794A29BE7F7C00094242 /* ContentView.swift */,
+				3E37797A29BE8B5300094242 /* VideoView.swift */,
+				3E37797229BE877000094242 /* Header.swift */,
+				3E9EEE2829D082B1009637F5 /* UIImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C80226841E03F89FCCE1D74D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F67CEDA0823EACF443B0D402 /* Pods_TournesolAppiOS.framework */,
+				E0ECC90CFC74E96E009F855D /* Pods_TournesolAppiOS_TournesolAppiOSUITests.framework */,
+				4BB437F791ABCA8787884C6C /* Pods_TournesolAppiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20D4BD269D2D1E126D84A16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4B95452AE843D8D5F732518 /* Pods-TournesolAppiOS.debug.xcconfig */,
+				BF5CDEFE2AF94CC160212F3B /* Pods-TournesolAppiOS.release.xcconfig */,
+				C7D7620DE08F51192670E9E6 /* Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig */,
+				30581DFA58CE702CCFC66D9F /* Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig */,
+				EF0F8DC8BD7FFAA65549889D /* Pods-TournesolAppiOSTests.debug.xcconfig */,
+				9198388FD95DA4385F889B94 /* Pods-TournesolAppiOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E37796929BE7F7E00094242 /* Build configuration list for PBXNativeTarget "TournesolAppiOS" */;
 			buildPhases = (
+				30466CB4D177E4C0E2D4CD5A /* [CP] Check Pods Manifest.lock */,
 				3E37794129BE7F7C00094242 /* Sources */,
 				3E37794229BE7F7C00094242 /* Frameworks */,
 				3E37794329BE7F7C00094242 /* Resources */,
+				E222A38E2AF52814B51C5E66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E37796C29BE7F7E00094242 /* Build configuration list for PBXNativeTarget "TournesolAppiOSTests" */;
 			buildPhases = (
+				08573112727FB2CA4B264CD7 /* [CP] Check Pods Manifest.lock */,
 				3E37795129BE7F7E00094242 /* Sources */,
 				3E37795229BE7F7E00094242 /* Frameworks */,
 				3E37795329BE7F7E00094242 /* Resources */,
@@ -169,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E37796F29BE7F7E00094242 /* Build configuration list for PBXNativeTarget "TournesolAppiOSUITests" */;
 			buildPhases = (
+				72C6AA49454E933F57230C8D /* [CP] Check Pods Manifest.lock */,
 				3E37795B29BE7F7E00094242 /* Sources */,
 				3E37795C29BE7F7E00094242 /* Frameworks */,
 				3E37795D29BE7F7E00094242 /* Resources */,
+				C69216EA06F4073FE09FBBF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E37795029BE7F7E00094242 /* Preview Assets.xcassets in Resources */,
+				3E37797F29BE8F5B00094242 /* sampleData.json in Resources */,
 				3E37794D29BE7F7E00094242 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,12 +342,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08573112727FB2CA4B264CD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TournesolAppiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30466CB4D177E4C0E2D4CD5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TournesolAppiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C6AA49454E933F57230C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TournesolAppiOS-TournesolAppiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C69216EA06F4073FE09FBBF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E222A38E2AF52814B51C5E66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E37794129BE7F7C00094242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E37797B29BE8B5300094242 /* VideoView.swift in Sources */,
 				3E37794B29BE7F7C00094242 /* ContentView.swift in Sources */,
+				3E9EEE2929D082B1009637F5 /* UIImageView.swift in Sources */,
+				3E37797729BE892B00094242 /* Recommendation.swift in Sources */,
+				3E37797329BE877000094242 /* Header.swift in Sources */,
+				3E37797929BE8AFD00094242 /* SampleData.swift in Sources */,
 				3E37794929BE7F7C00094242 /* TournesolAppiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +550,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -405,12 +604,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		3E37796A29BE7F7E00094242 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B95452AE843D8D5F732518 /* Pods-TournesolAppiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,11 +621,14 @@
 				DEVELOPMENT_TEAM = BCQ8AQWNFX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TournesolAppiOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tournesol;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +644,7 @@
 		};
 		3E37796B29BE7F7E00094242 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5CDEFE2AF94CC160212F3B /* Pods-TournesolAppiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,11 +654,14 @@
 				DEVELOPMENT_TEAM = BCQ8AQWNFX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TournesolAppiOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tournesol;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +677,7 @@
 		};
 		3E37796D29BE7F7E00094242 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0F8DC8BD7FFAA65549889D /* Pods-TournesolAppiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +698,7 @@
 		};
 		3E37796E29BE7F7E00094242 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9198388FD95DA4385F889B94 /* Pods-TournesolAppiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +719,7 @@
 		};
 		3E37797029BE7F7E00094242 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D7620DE08F51192670E9E6 /* Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +738,7 @@
 		};
 		3E37797129BE7F7E00094242 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30581DFA58CE702CCFC66D9F /* Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

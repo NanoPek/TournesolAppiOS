@@ -1,0 +1,1186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3D51F2A85AC1C2BC75BF24808A8D98 /* URLSessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757F161EEF1A2CE06C5C4D37810EA73 /* URLSessionCoordinator.swift */; };
+		1431D8D008C655427AFC2D81276D6DF3 /* RemoteContentLoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F699DAE9DDE5BE69FD0738A4F93EF47 /* RemoteContentLoadingState.swift */; };
+		169C01985E359B9BA9207BF9D394ADBF /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95AA61E4BEE12166B1C05C361106AC6 /* RemoteImage.swift */; };
+		1B1EF663300D1F0C807642865D947A35 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798939CD20C417664F6EEFC7DE4533F /* File.swift */; };
+		1F4D3B4A754CA236C1C1FAE67B31C693 /* FileIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9037690AF5AC6D8A64360F8E5DE9C79 /* FileIndex.swift */; };
+		1F55FF036768D484179D39ECFFF8C47E /* URLImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2F0BC7419A92219A9F7BA0D1874906 /* URLImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22678260FA0A277CB122D8975F34F2AE /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D684EF6863E7BF8C7C46D38829AD84 /* DiskCache.swift */; };
+		25D8EB079B0BD50C6BD41541E01CBE1F /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D957422D380B416E668F9DF4E05C35B /* URLImage.swift */; };
+		2CD6A77E3040C8BFE476C5B86C6F673D /* URLImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75BAB51DE66FED6F47984C831FF8AEA /* URLImageService.swift */; };
+		305485E2330658F16EDB405760274F16 /* DownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7183CE25FE5C594D54FCC2FFB77E086 /* DownloadTask.swift */; };
+		330D37A2DFAECC0CBB94CE121DD1654C /* Pods-TournesolAppiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1298DC78E23E7FACF280DC67A95480C5 /* Pods-TournesolAppiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3937DB558B7EC48DCD334969E23F956D /* Download+URLImageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE7C6F69C7D494EDC5E770E31304B /* Download+URLImageOptions.swift */; };
+		3BC616D4DE96B492801A10DDE16605FA /* CoreDataFetchIndexDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD13648BE54ECEF82EF5392F48B3DC5B /* CoreDataFetchIndexDescription.swift */; };
+		463182C838ACBDDF40031F072BBF36AA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E430D52D34EDB665AD611BAB0C421F3 /* Utils.swift */; };
+		467E966350AF95D7666933AFD7227BDB /* Pods-TournesolAppiOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACE69C060BBB04D8C3714E46C422ADC /* Pods-TournesolAppiOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB0A89D1912B15DA7B782F47F415F3 /* Pods-TournesolAppiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FDBE99D145A13D1C076630F0CEB10A /* Pods-TournesolAppiOS-dummy.m */; };
+		49BCBBA5024C31AE070EB0B924BDC9DC /* RemoteContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2984EED6A74AF3B94E8DE34341454751 /* RemoteContent.swift */; };
+		4B67F9BFE47933043874DA5688F7C357 /* URLImageService+RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4699C432306F33139A820B17E7B754B /* URLImageService+RemoteImage.swift */; };
+		4F3C8C9972594B56514CB22C5B68C1AF /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B84B77E0FAC9BBD92A3484110F967B /* Download.swift */; };
+		590B1F443B71F52E172D79D9074BCE5D /* TransientImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751057EECC6CD5508DC3BCA2E133F03C /* TransientImage.swift */; };
+		5A15C80DEF28454205F991F4777FD8D7 /* RemoteContentViewLoadOptions+URLImageOptions_LoadOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17B84CE1C118EE86B72F31EF4EF5F0 /* RemoteContentViewLoadOptions+URLImageOptions_LoadOptions.swift */; };
+		5F7143F8B07D8DDE8063974F5A959CC9 /* DownloadTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F3B932BA11CF5903573D7B3D708153 /* DownloadTypes.swift */; };
+		6018DD911D00BA6CCE58F502FC618B58 /* ManagedObjectCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2433312673FC717F77ADEF5F276A110 /* ManagedObjectCodable.swift */; };
+		684EE4E1147628033D2F800573B5A32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7BD772F68260C78596F8A9E4446A3E11 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B036C42ADDB7BEEBF7309CEFD405730 /* ActivityIndicator.swift */; };
+		7E83C40441521B01A2B781FCFD32E7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		836150A36F8FE1342CFCB4CB567ADF5D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC574D604FB132423432B9CD2DED1F /* Log.swift */; };
+		85D8A4FD3BF0EAD9E073FC85F07D4588 /* CoreDataAttributeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE22D3BFC4F361FB68759FF5FE1F95 /* CoreDataAttributeDescription.swift */; };
+		88FFBEE0DA59B1F492E0A8DA8AB36BC0 /* URLImageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C90B666837847FCD51EBF5022E7EBE7 /* URLImageError.swift */; };
+		8A367E7968F49DE75809DEEAF7C93A09 /* CoreDataModelDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D00C0471E45C45B052B7290F271347D /* CoreDataModelDescription.swift */; };
+		92E63CD273122BB65C47B89C93849660 /* DownloadProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB10964ABBE6F71A6BA066F0B063CD0A /* DownloadProgress.swift */; };
+		93DE9FA231DC6B82F1206C22F424AD9C /* URLSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D814A2973D2F80506A25EB6451E1C28C /* URLSessionDelegate.swift */; };
+		9F0E88F1825563E253E02F9E351CF2E5 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F273E0648D878BD7650FE34D2F7D9E6D /* Pods-TournesolAppiOS-TournesolAppiOSUITests-dummy.m */; };
+		9FFE7A2A477118A8B1B42E32D6E77C9C /* Image_Orientation+CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062730E02699FC4D5299F1C59FB02508 /* Image_Orientation+CGImagePropertyOrientation.swift */; };
+		A594EAC9D43E1F7801DF1692BF50722B /* ImageDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEDAA72B60A0ADA9A849451F304195D /* ImageDecoder.swift */; };
+		A7254DA7346D115F92CF35A00E8028B6 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 031317A73AB6E7D8AAE310998D1B5188 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72DAECEB2D5701C87DCEB10FF26145A /* DownloadPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E54C4FFC37A2304EF20ECEC6B5AFB /* DownloadPublisher.swift */; };
+		AA684F70E49825A7446BE5D9E04EDA04 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932BEF1A5B5AC94A79BF9D3AE1CC7A1B /* Bundle+Extensions.swift */; };
+		ACD71580CFBE21CC0895BFD149BD7C7C /* URLImageService+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A859D3538C985765376C4A18A3F87B /* URLImageService+Extension.swift */; };
+		ADA113B8682E317DE298422DAD2ACB69 /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598561D11DCE01DE4E2A58DAF99121BB /* FileManager+Extensions.swift */; };
+		BF8F0BAB6903BAED5A2E48E36A9CBE99 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89846377B9B2AF8FC13305C87FD84AD /* Database.swift */; };
+		C892C55DE3F35277705A944347AFBE43 /* URLImageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918EFFCEC81FA336BFFB562B83A6EBF /* URLImageOptions.swift */; };
+		CF7B27D87C00506349C3DEF101B5E7A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D820CF99DBC879D610E13331F3E19A37 /* PlainDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F1320EEE3F952562651EA9D2935F9 /* PlainDatabase.swift */; };
+		DAE64CC964FBF2E16BB3B8E257606CE1 /* URLImageService+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E97008ABF08E044EBAECA30585F102 /* URLImageService+Cache.swift */; };
+		E0748F7C2A8958FF986BCE61C2085F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E2666C414958DB48D49C669034BF6380 /* URLImageService+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C927A08FEEEF4CF6F53CA3766534CEA /* URLImageService+Decode.swift */; };
+		E71F6E1DF168E4DE7CEF45CD8E5B1F59 /* URLImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D9BD0AD2FF483C441EBD6315AE730F /* URLImage-dummy.m */; };
+		E8B96C6265ADA942B4E1CFDFF60C7266 /* CoreDataEntityDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30755D9D1A4106DBAF7B731FB5E3AD87 /* CoreDataEntityDescription.swift */; };
+		ED8309FB873A7FC9DB2A52EA270D1604 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B947A17C93E283BBECF11E2299070 /* ImageInfo.swift */; };
+		EF57D152858E2AAFEC5CD9646BFC0232 /* InMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6499C22034A0BE2231D9BAF2B5B899F /* InMemoryCache.swift */; };
+		F0C7921EAAD258979CD2DBBF311BD9A7 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D50AB16F7C9623A682AFD21D53E2A9 /* DownloadManager.swift */; };
+		F9E193F56CB0CB5A67E7A06343624AE6 /* RemoteContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAAE0193B844AE120C256291BF4D28 /* RemoteContentView.swift */; };
+		FB2F16D1C99CD45BEB225ABAC59E1353 /* Pods-TournesolAppiOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E1796B5F2D0751787B48575F6E7B5 /* Pods-TournesolAppiOSTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184A32A0093BBF4D3D791EDF5EC2D49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F0EC9E7C53B8F2B2B1AC59226250AB;
+			remoteInfo = URLImage;
+		};
+		60D3967846AA1DF1884498D734B73D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1302476D8ADAB7794AB99B0939C3E232;
+			remoteInfo = "Pods-TournesolAppiOS";
+		};
+		86C635A1EC83E6B79455C0B0766431FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F0EC9E7C53B8F2B2B1AC59226250AB;
+			remoteInfo = URLImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031317A73AB6E7D8AAE310998D1B5188 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		050F37F18F49DF0093588825BB4F4892 /* Pods-TournesolAppiOS-TournesolAppiOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests.modulemap"; sourceTree = "<group>"; };
+		062730E02699FC4D5299F1C59FB02508 /* Image_Orientation+CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image_Orientation+CGImagePropertyOrientation.swift"; path = "Sources/URLImage/Common/Image_Orientation+CGImagePropertyOrientation.swift"; sourceTree = "<group>"; };
+		1298DC78E23E7FACF280DC67A95480C5 /* Pods-TournesolAppiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TournesolAppiOS-umbrella.h"; sourceTree = "<group>"; };
+		133703594E8017B2EB1DCD9362036115 /* Pods-TournesolAppiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TournesolAppiOS-frameworks.sh"; sourceTree = "<group>"; };
+		157A7C41E090BE00981D10B760057FB9 /* Pods-TournesolAppiOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TournesolAppiOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C90B666837847FCD51EBF5022E7EBE7 /* URLImageError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLImageError.swift; path = Sources/URLImage/Common/URLImageError.swift; sourceTree = "<group>"; };
+		22873038BCF44A5020936ED38B656C61 /* Pods-TournesolAppiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TournesolAppiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2757F161EEF1A2CE06C5C4D37810EA73 /* URLSessionCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionCoordinator.swift; path = Dependencies/Sources/DownloadManager/URLSession/URLSessionCoordinator.swift; sourceTree = "<group>"; };
+		2887F2E4A4C98BEF767A166683622593 /* URLImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URLImage; path = URLImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2984EED6A74AF3B94E8DE34341454751 /* RemoteContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteContent.swift; path = Dependencies/Sources/RemoteContentView/RemoteContent/RemoteContent.swift; sourceTree = "<group>"; };
+		2D2F0BC7419A92219A9F7BA0D1874906 /* URLImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLImage-umbrella.h"; sourceTree = "<group>"; };
+		30755D9D1A4106DBAF7B731FB5E3AD87 /* CoreDataEntityDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataEntityDescription.swift; path = Dependencies/Sources/PlainDatabase/CoreDataModel/CoreDataEntityDescription.swift; sourceTree = "<group>"; };
+		38B24526C2B514AA5492C096B86632D2 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		390B947A17C93E283BBECF11E2299070 /* ImageInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageInfo.swift; path = Sources/URLImage/Model/ImageInfo.swift; sourceTree = "<group>"; };
+		3C927A08FEEEF4CF6F53CA3766534CEA /* URLImageService+Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLImageService+Decode.swift"; path = "Sources/URLImage/URLImageService+Decode.swift"; sourceTree = "<group>"; };
+		44FE22D3BFC4F361FB68759FF5FE1F95 /* CoreDataAttributeDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataAttributeDescription.swift; path = Dependencies/Sources/PlainDatabase/CoreDataModel/CoreDataAttributeDescription.swift; sourceTree = "<group>"; };
+		46112AEAF2FF0EC3E9ACC03DE27DAA00 /* Pods-TournesolAppiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TournesolAppiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BBB5A250F80C2FD9C895D7180AE575C /* URLImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLImage.debug.xcconfig; sourceTree = "<group>"; };
+		4F699DAE9DDE5BE69FD0738A4F93EF47 /* RemoteContentLoadingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteContentLoadingState.swift; path = Dependencies/Sources/RemoteContentView/RemoteContent/RemoteContentLoadingState.swift; sourceTree = "<group>"; };
+		598561D11DCE01DE4E2A58DAF99121BB /* FileManager+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+Extensions.swift"; path = "Dependencies/Sources/Common/FileManager+Extensions.swift"; sourceTree = "<group>"; };
+		5C62C4B211F134BF981EAA31714163D7 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests-Info.plist"; sourceTree = "<group>"; };
+		5D329B1E0E7C06E787F956D07E0F6A9C /* Pods-TournesolAppiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TournesolAppiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DEDAA72B60A0ADA9A849451F304195D /* ImageDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDecoder.swift; path = Dependencies/Sources/ImageDecoder/ImageDecoder.swift; sourceTree = "<group>"; };
+		5DFE0BEFFEB6498895484C726E3FEEA3 /* Pods-TournesolAppiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TournesolAppiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		612F1320EEE3F952562651EA9D2935F9 /* PlainDatabase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlainDatabase.swift; path = Dependencies/Sources/PlainDatabase/PlainDatabase.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		751057EECC6CD5508DC3BCA2E133F03C /* TransientImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransientImage.swift; path = Sources/URLImage/Model/TransientImage.swift; sourceTree = "<group>"; };
+		7E430D52D34EDB665AD611BAB0C421F3 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Dependencies/Sources/DownloadManager/Common/Utils.swift; sourceTree = "<group>"; };
+		80E97008ABF08E044EBAECA30585F102 /* URLImageService+Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLImageService+Cache.swift"; path = "Sources/URLImage/URLImageService+Cache.swift"; sourceTree = "<group>"; };
+		83E12A27A3644A204406741A8FA071A1 /* Pods-TournesolAppiOS-TournesolAppiOSUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TournesolAppiOS-TournesolAppiOSUITests"; path = Pods_TournesolAppiOS_TournesolAppiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EAAE0193B844AE120C256291BF4D28 /* RemoteContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteContentView.swift; path = Dependencies/Sources/RemoteContentView/RemoteContentView.swift; sourceTree = "<group>"; };
+		87FAFA33259423295D468B9003898243 /* Pods-TournesolAppiOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TournesolAppiOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B036C42ADDB7BEEBF7309CEFD405730 /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = Dependencies/Sources/RemoteContentView/Auxiliary/ActivityIndicator.swift; sourceTree = "<group>"; };
+		90B84B77E0FAC9BBD92A3484110F967B /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Dependencies/Sources/DownloadManager/Download/Download.swift; sourceTree = "<group>"; };
+		91FD7041374543F60184B46B8EE3757C /* Pods-TournesolAppiOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TournesolAppiOS"; path = Pods_TournesolAppiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		932BEF1A5B5AC94A79BF9D3AE1CC7A1B /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Dependencies/Sources/FileIndex/Common/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		93B069D171478FC306E70EFA7BB43C67 /* URLImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = URLImage.modulemap; sourceTree = "<group>"; };
+		9ACE69C060BBB04D8C3714E46C422ADC /* Pods-TournesolAppiOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TournesolAppiOSTests-umbrella.h"; sourceTree = "<group>"; };
+		9D00C0471E45C45B052B7290F271347D /* CoreDataModelDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataModelDescription.swift; path = Dependencies/Sources/PlainDatabase/CoreDataModel/CoreDataModelDescription.swift; sourceTree = "<group>"; };
+		9D153340F0CE420EA1530DE234CE380C /* Pods-TournesolAppiOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TournesolAppiOSTests-Info.plist"; sourceTree = "<group>"; };
+		9D72326DF1B1393AC586C012E6F8A1D6 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D957422D380B416E668F9DF4E05C35B /* URLImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLImage.swift; path = Sources/URLImage/URLImage.swift; sourceTree = "<group>"; };
+		A2433312673FC717F77ADEF5F276A110 /* ManagedObjectCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedObjectCodable.swift; path = Dependencies/Sources/PlainDatabase/CoreDataModel/ManagedObjectCodable.swift; sourceTree = "<group>"; };
+		A3B4BF4379A8DD051D85406D0EE2837C /* Pods-TournesolAppiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TournesolAppiOS-Info.plist"; sourceTree = "<group>"; };
+		A4699C432306F33139A820B17E7B754B /* URLImageService+RemoteImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLImageService+RemoteImage.swift"; path = "Sources/URLImage/URLImageService+RemoteImage.swift"; sourceTree = "<group>"; };
+		A798939CD20C417664F6EEFC7DE4533F /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Dependencies/Sources/FileIndex/File.swift; sourceTree = "<group>"; };
+		A95AA61E4BEE12166B1C05C361106AC6 /* RemoteImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteImage.swift; path = Sources/URLImage/Model/RemoteImage.swift; sourceTree = "<group>"; };
+		AD13648BE54ECEF82EF5392F48B3DC5B /* CoreDataFetchIndexDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataFetchIndexDescription.swift; path = Dependencies/Sources/PlainDatabase/CoreDataModel/CoreDataFetchIndexDescription.swift; sourceTree = "<group>"; };
+		B0A859D3538C985765376C4A18A3F87B /* URLImageService+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLImageService+Extension.swift"; path = "Sources/URLImage/URLImageService+Extension.swift"; sourceTree = "<group>"; };
+		B89846377B9B2AF8FC13305C87FD84AD /* Database.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Database.swift; path = Dependencies/Sources/PlainDatabase/Database.swift; sourceTree = "<group>"; };
+		BAC42227E1605171C4365A10F4A0F2DA /* URLImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLImage.release.xcconfig; sourceTree = "<group>"; };
+		BB495ABF5526C5E95B98FE85F64D6101 /* Pods-TournesolAppiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TournesolAppiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BF0462A334E8348140929981EB86EE61 /* Pods-TournesolAppiOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TournesolAppiOSTests.modulemap"; sourceTree = "<group>"; };
+		C0D9BD0AD2FF483C441EBD6315AE730F /* URLImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "URLImage-dummy.m"; sourceTree = "<group>"; };
+		C1D50AB16F7C9623A682AFD21D53E2A9 /* DownloadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadManager.swift; path = Dependencies/Sources/DownloadManager/DownloadManager.swift; sourceTree = "<group>"; };
+		C44FE7C6F69C7D494EDC5E770E31304B /* Download+URLImageOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Download+URLImageOptions.swift"; path = "Sources/URLImage/Common/Download+URLImageOptions.swift"; sourceTree = "<group>"; };
+		C9037690AF5AC6D8A64360F8E5DE9C79 /* FileIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileIndex.swift; path = Dependencies/Sources/FileIndex/FileIndex.swift; sourceTree = "<group>"; };
+		C918EFFCEC81FA336BFFB562B83A6EBF /* URLImageOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLImageOptions.swift; path = Sources/URLImage/URLImageOptions.swift; sourceTree = "<group>"; };
+		CE17B84CE1C118EE86B72F31EF4EF5F0 /* RemoteContentViewLoadOptions+URLImageOptions_LoadOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RemoteContentViewLoadOptions+URLImageOptions_LoadOptions.swift"; path = "Sources/URLImage/Common/RemoteContentViewLoadOptions+URLImageOptions_LoadOptions.swift"; sourceTree = "<group>"; };
+		D1F3B932BA11CF5903573D7B3D708153 /* DownloadTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadTypes.swift; path = Dependencies/Sources/DownloadManager/Download/DownloadTypes.swift; sourceTree = "<group>"; };
+		D6499C22034A0BE2231D9BAF2B5B899F /* InMemoryCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InMemoryCache.swift; path = Sources/URLImage/Cache/InMemoryCache.swift; sourceTree = "<group>"; };
+		D6E3EDBA6973C07EC740F0D65F347AB8 /* Pods-TournesolAppiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TournesolAppiOS.release.xcconfig"; sourceTree = "<group>"; };
+		D814A2973D2F80506A25EB6451E1C28C /* URLSessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDelegate.swift; path = Dependencies/Sources/DownloadManager/URLSession/URLSessionDelegate.swift; sourceTree = "<group>"; };
+		D8CE7F74067451E45A4443F5B371FFBB /* Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB10964ABBE6F71A6BA066F0B063CD0A /* DownloadProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadProgress.swift; path = Dependencies/Sources/DownloadManager/Common/DownloadProgress.swift; sourceTree = "<group>"; };
+		E00A86C9D09DDC52A57001CE82337049 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E7183CE25FE5C594D54FCC2FFB77E086 /* DownloadTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadTask.swift; path = Dependencies/Sources/DownloadManager/Download/DownloadTask.swift; sourceTree = "<group>"; };
+		E75BAB51DE66FED6F47984C831FF8AEA /* URLImageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLImageService.swift; path = Sources/URLImage/URLImageService.swift; sourceTree = "<group>"; };
+		E7D684EF6863E7BF8C7C46D38829AD84 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = Sources/URLImage/Cache/DiskCache.swift; sourceTree = "<group>"; };
+		EA7836F69C047F6F8A4E9B4662A6C2FB /* Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBA69F3DF8965767BA1B13E0B876101C /* URLImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "URLImage-Info.plist"; sourceTree = "<group>"; };
+		EC8E54C4FFC37A2304EF20ECEC6B5AFB /* DownloadPublisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadPublisher.swift; path = Dependencies/Sources/DownloadManager/Download/DownloadPublisher.swift; sourceTree = "<group>"; };
+		ED8648F71FD90701B669C20EF8555C2F /* Pods-TournesolAppiOSTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TournesolAppiOSTests"; path = Pods_TournesolAppiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2E1796B5F2D0751787B48575F6E7B5 /* Pods-TournesolAppiOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TournesolAppiOSTests-dummy.m"; sourceTree = "<group>"; };
+		F1F520A1C36930ED95C96E130553CA61 /* Pods-TournesolAppiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TournesolAppiOS.modulemap"; sourceTree = "<group>"; };
+		F273E0648D878BD7650FE34D2F7D9E6D /* Pods-TournesolAppiOS-TournesolAppiOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TournesolAppiOS-TournesolAppiOSUITests-dummy.m"; sourceTree = "<group>"; };
+		F9AC574D604FB132423432B9CD2DED1F /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Dependencies/Sources/Log/Log.swift; sourceTree = "<group>"; };
+		F9FDBE99D145A13D1C076630F0CEB10A /* Pods-TournesolAppiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TournesolAppiOS-dummy.m"; sourceTree = "<group>"; };
+		FD32E1E745EDA021754012BA14A8F1DC /* URLImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLImage-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA6549C86334BC2C4EAB31E5A7395DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0748F7C2A8958FF986BCE61C2085F50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A14F3C2B536443642AF4BE5CDB5846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E83C40441521B01A2B781FCFD32E7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4E572E0F1EA5FD977A86CEEB46CA1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684EE4E1147628033D2F800573B5A32A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1382E2E2068672B4004CFAED9BE2F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7B27D87C00506349C3DEF101B5E7A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351432E84F2FBCB1B8D74EA521EE4A95 /* Pods-TournesolAppiOS-TournesolAppiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				050F37F18F49DF0093588825BB4F4892 /* Pods-TournesolAppiOS-TournesolAppiOSUITests.modulemap */,
+				9D72326DF1B1393AC586C012E6F8A1D6 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-acknowledgements.markdown */,
+				38B24526C2B514AA5492C096B86632D2 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-acknowledgements.plist */,
+				F273E0648D878BD7650FE34D2F7D9E6D /* Pods-TournesolAppiOS-TournesolAppiOSUITests-dummy.m */,
+				E00A86C9D09DDC52A57001CE82337049 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-frameworks.sh */,
+				5C62C4B211F134BF981EAA31714163D7 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-Info.plist */,
+				031317A73AB6E7D8AAE310998D1B5188 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-umbrella.h */,
+				D8CE7F74067451E45A4443F5B371FFBB /* Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig */,
+				EA7836F69C047F6F8A4E9B4662A6C2FB /* Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig */,
+			);
+			name = "Pods-TournesolAppiOS-TournesolAppiOSUITests";
+			path = "Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests";
+			sourceTree = "<group>";
+		};
+		389489244C772CC9CB27985702B20915 /* FileIndex */ = {
+			isa = PBXGroup;
+			children = (
+				932BEF1A5B5AC94A79BF9D3AE1CC7A1B /* Bundle+Extensions.swift */,
+				A798939CD20C417664F6EEFC7DE4533F /* File.swift */,
+				C9037690AF5AC6D8A64360F8E5DE9C79 /* FileIndex.swift */,
+			);
+			name = FileIndex;
+			sourceTree = "<group>";
+		};
+		3B3BB1A89403E85DEE537132BE852EFE /* RemoteContentView */ = {
+			isa = PBXGroup;
+			children = (
+				8B036C42ADDB7BEEBF7309CEFD405730 /* ActivityIndicator.swift */,
+				2984EED6A74AF3B94E8DE34341454751 /* RemoteContent.swift */,
+				4F699DAE9DDE5BE69FD0738A4F93EF47 /* RemoteContentLoadingState.swift */,
+				84EAAE0193B844AE120C256291BF4D28 /* RemoteContentView.swift */,
+			);
+			name = RemoteContentView;
+			sourceTree = "<group>";
+		};
+		4A2F2FF26D08750610ED13B172D0DF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FD7041374543F60184B46B8EE3757C /* Pods-TournesolAppiOS */,
+				83E12A27A3644A204406741A8FA071A1 /* Pods-TournesolAppiOS-TournesolAppiOSUITests */,
+				ED8648F71FD90701B669C20EF8555C2F /* Pods-TournesolAppiOSTests */,
+				2887F2E4A4C98BEF767A166683622593 /* URLImage */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E03C5931047D466FE7796A81FDDE5D6 /* Pods-TournesolAppiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F1F520A1C36930ED95C96E130553CA61 /* Pods-TournesolAppiOS.modulemap */,
+				22873038BCF44A5020936ED38B656C61 /* Pods-TournesolAppiOS-acknowledgements.markdown */,
+				46112AEAF2FF0EC3E9ACC03DE27DAA00 /* Pods-TournesolAppiOS-acknowledgements.plist */,
+				F9FDBE99D145A13D1C076630F0CEB10A /* Pods-TournesolAppiOS-dummy.m */,
+				133703594E8017B2EB1DCD9362036115 /* Pods-TournesolAppiOS-frameworks.sh */,
+				A3B4BF4379A8DD051D85406D0EE2837C /* Pods-TournesolAppiOS-Info.plist */,
+				1298DC78E23E7FACF280DC67A95480C5 /* Pods-TournesolAppiOS-umbrella.h */,
+				BB495ABF5526C5E95B98FE85F64D6101 /* Pods-TournesolAppiOS.debug.xcconfig */,
+				D6E3EDBA6973C07EC740F0D65F347AB8 /* Pods-TournesolAppiOS.release.xcconfig */,
+			);
+			name = "Pods-TournesolAppiOS";
+			path = "Target Support Files/Pods-TournesolAppiOS";
+			sourceTree = "<group>";
+		};
+		5075DDF89D3BB7DD226E3BA087AEF96C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8F35A195D9D1BA4760F0E2391168FA3 /* URLImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A087491F95C30A1C86AD62B3FCCC0C9 /* PlainDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				44FE22D3BFC4F361FB68759FF5FE1F95 /* CoreDataAttributeDescription.swift */,
+				30755D9D1A4106DBAF7B731FB5E3AD87 /* CoreDataEntityDescription.swift */,
+				AD13648BE54ECEF82EF5392F48B3DC5B /* CoreDataFetchIndexDescription.swift */,
+				9D00C0471E45C45B052B7290F271347D /* CoreDataModelDescription.swift */,
+				B89846377B9B2AF8FC13305C87FD84AD /* Database.swift */,
+				A2433312673FC717F77ADEF5F276A110 /* ManagedObjectCodable.swift */,
+				612F1320EEE3F952562651EA9D2935F9 /* PlainDatabase.swift */,
+			);
+			name = PlainDatabase;
+			sourceTree = "<group>";
+		};
+		63FE068CBB0F3A0958CA6EC5437F1D2F /* Pods-TournesolAppiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0462A334E8348140929981EB86EE61 /* Pods-TournesolAppiOSTests.modulemap */,
+				157A7C41E090BE00981D10B760057FB9 /* Pods-TournesolAppiOSTests-acknowledgements.markdown */,
+				87FAFA33259423295D468B9003898243 /* Pods-TournesolAppiOSTests-acknowledgements.plist */,
+				EE2E1796B5F2D0751787B48575F6E7B5 /* Pods-TournesolAppiOSTests-dummy.m */,
+				9D153340F0CE420EA1530DE234CE380C /* Pods-TournesolAppiOSTests-Info.plist */,
+				9ACE69C060BBB04D8C3714E46C422ADC /* Pods-TournesolAppiOSTests-umbrella.h */,
+				5D329B1E0E7C06E787F956D07E0F6A9C /* Pods-TournesolAppiOSTests.debug.xcconfig */,
+				5DFE0BEFFEB6498895484C726E3FEEA3 /* Pods-TournesolAppiOSTests.release.xcconfig */,
+			);
+			name = "Pods-TournesolAppiOSTests";
+			path = "Target Support Files/Pods-TournesolAppiOSTests";
+			sourceTree = "<group>";
+		};
+		6896E48DF1A50BE469740426E4F82D01 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC574D604FB132423432B9CD2DED1F /* Log.swift */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
+		8A6C6A41873C721141CD1B53FD21C1A9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				598561D11DCE01DE4E2A58DAF99121BB /* FileManager+Extensions.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9614BD1AF83B9699A53DBA965BDBF1E2 /* ImageDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				5DEDAA72B60A0ADA9A849451F304195D /* ImageDecoder.swift */,
+			);
+			name = ImageDecoder;
+			sourceTree = "<group>";
+		};
+		B225BFD52AC06318D30CF158BF456C7C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E03C5931047D466FE7796A81FDDE5D6 /* Pods-TournesolAppiOS */,
+				351432E84F2FBCB1B8D74EA521EE4A95 /* Pods-TournesolAppiOS-TournesolAppiOSUITests */,
+				63FE068CBB0F3A0958CA6EC5437F1D2F /* Pods-TournesolAppiOSTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B45CBF5D412BCFF34904D5BD511C9157 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B069D171478FC306E70EFA7BB43C67 /* URLImage.modulemap */,
+				C0D9BD0AD2FF483C441EBD6315AE730F /* URLImage-dummy.m */,
+				EBA69F3DF8965767BA1B13E0B876101C /* URLImage-Info.plist */,
+				FD32E1E745EDA021754012BA14A8F1DC /* URLImage-prefix.pch */,
+				2D2F0BC7419A92219A9F7BA0D1874906 /* URLImage-umbrella.h */,
+				4BBB5A250F80C2FD9C895D7180AE575C /* URLImage.debug.xcconfig */,
+				BAC42227E1605171C4365A10F4A0F2DA /* URLImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/URLImage";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5075DDF89D3BB7DD226E3BA087AEF96C /* Pods */,
+				4A2F2FF26D08750610ED13B172D0DF95 /* Products */,
+				B225BFD52AC06318D30CF158BF456C7C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8F35A195D9D1BA4760F0E2391168FA3 /* URLImage */ = {
+			isa = PBXGroup;
+			children = (
+				E7D684EF6863E7BF8C7C46D38829AD84 /* DiskCache.swift */,
+				C44FE7C6F69C7D494EDC5E770E31304B /* Download+URLImageOptions.swift */,
+				062730E02699FC4D5299F1C59FB02508 /* Image_Orientation+CGImagePropertyOrientation.swift */,
+				390B947A17C93E283BBECF11E2299070 /* ImageInfo.swift */,
+				D6499C22034A0BE2231D9BAF2B5B899F /* InMemoryCache.swift */,
+				CE17B84CE1C118EE86B72F31EF4EF5F0 /* RemoteContentViewLoadOptions+URLImageOptions_LoadOptions.swift */,
+				A95AA61E4BEE12166B1C05C361106AC6 /* RemoteImage.swift */,
+				751057EECC6CD5508DC3BCA2E133F03C /* TransientImage.swift */,
+				9D957422D380B416E668F9DF4E05C35B /* URLImage.swift */,
+				1C90B666837847FCD51EBF5022E7EBE7 /* URLImageError.swift */,
+				C918EFFCEC81FA336BFFB562B83A6EBF /* URLImageOptions.swift */,
+				E75BAB51DE66FED6F47984C831FF8AEA /* URLImageService.swift */,
+				80E97008ABF08E044EBAECA30585F102 /* URLImageService+Cache.swift */,
+				3C927A08FEEEF4CF6F53CA3766534CEA /* URLImageService+Decode.swift */,
+				B0A859D3538C985765376C4A18A3F87B /* URLImageService+Extension.swift */,
+				A4699C432306F33139A820B17E7B754B /* URLImageService+RemoteImage.swift */,
+				8A6C6A41873C721141CD1B53FD21C1A9 /* Common */,
+				F9020647791A6B45D3549D6D90651776 /* DownloadManager */,
+				389489244C772CC9CB27985702B20915 /* FileIndex */,
+				9614BD1AF83B9699A53DBA965BDBF1E2 /* ImageDecoder */,
+				6896E48DF1A50BE469740426E4F82D01 /* Log */,
+				5A087491F95C30A1C86AD62B3FCCC0C9 /* PlainDatabase */,
+				3B3BB1A89403E85DEE537132BE852EFE /* RemoteContentView */,
+				B45CBF5D412BCFF34904D5BD511C9157 /* Support Files */,
+			);
+			name = URLImage;
+			path = URLImage;
+			sourceTree = "<group>";
+		};
+		F9020647791A6B45D3549D6D90651776 /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				90B84B77E0FAC9BBD92A3484110F967B /* Download.swift */,
+				C1D50AB16F7C9623A682AFD21D53E2A9 /* DownloadManager.swift */,
+				DB10964ABBE6F71A6BA066F0B063CD0A /* DownloadProgress.swift */,
+				EC8E54C4FFC37A2304EF20ECEC6B5AFB /* DownloadPublisher.swift */,
+				E7183CE25FE5C594D54FCC2FFB77E086 /* DownloadTask.swift */,
+				D1F3B932BA11CF5903573D7B3D708153 /* DownloadTypes.swift */,
+				2757F161EEF1A2CE06C5C4D37810EA73 /* URLSessionCoordinator.swift */,
+				D814A2973D2F80506A25EB6451E1C28C /* URLSessionDelegate.swift */,
+				7E430D52D34EDB665AD611BAB0C421F3 /* Utils.swift */,
+			);
+			name = DownloadManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17D417316AFDE741B5947D23782D056A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7254DA7346D115F92CF35A00E8028B6 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1ACED6CD05057BD015B7E44E6D24E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467E966350AF95D7666933AFD7227BDB /* Pods-TournesolAppiOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E641EB9072C11D59236C0B009DD4848 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F55FF036768D484179D39ECFFF8C47E /* URLImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F88021E51FAF4E7759A6A2E680F7F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330D37A2DFAECC0CBB94CE121DD1654C /* Pods-TournesolAppiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1302476D8ADAB7794AB99B0939C3E232 /* Pods-TournesolAppiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AAB72664513306E05092939164ED42 /* Build configuration list for PBXNativeTarget "Pods-TournesolAppiOS" */;
+			buildPhases = (
+				A2F88021E51FAF4E7759A6A2E680F7F9 /* Headers */,
+				51CD39B72A8D6C7E09FE24838455CB56 /* Sources */,
+				CC4E572E0F1EA5FD977A86CEEB46CA1D /* Frameworks */,
+				C6593104DE7347F7F77E12FDF0C3CE7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45190F66088F6F0E65B2D109554A0E98 /* PBXTargetDependency */,
+			);
+			name = "Pods-TournesolAppiOS";
+			productName = Pods_TournesolAppiOS;
+			productReference = 91FD7041374543F60184B46B8EE3757C /* Pods-TournesolAppiOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7B484346DDF2BAE05403504B3B0D3B /* Build configuration list for PBXNativeTarget "URLImage" */;
+			buildPhases = (
+				6E641EB9072C11D59236C0B009DD4848 /* Headers */,
+				032BA48E04AAF1073C677EB4975E343A /* Sources */,
+				0EA6549C86334BC2C4EAB31E5A7395DC /* Frameworks */,
+				5298A6E4F23E3B0FD3A5772CF51417D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLImage;
+			productName = URLImage;
+			productReference = 2887F2E4A4C98BEF767A166683622593 /* URLImage */;
+			productType = "com.apple.product-type.framework";
+		};
+		C45399C2FB56D5D30AA5E12D3AF983A0 /* Pods-TournesolAppiOS-TournesolAppiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E8FA8652D0E05D942705510384E7D8 /* Build configuration list for PBXNativeTarget "Pods-TournesolAppiOS-TournesolAppiOSUITests" */;
+			buildPhases = (
+				17D417316AFDE741B5947D23782D056A /* Headers */,
+				CCD45F8938AAEF238293B8E0C681C129 /* Sources */,
+				A4A14F3C2B536443642AF4BE5CDB5846 /* Frameworks */,
+				4BDF92A71355569DE250999F475AEE58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B71F0806C5492AE409F60602734994 /* PBXTargetDependency */,
+			);
+			name = "Pods-TournesolAppiOS-TournesolAppiOSUITests";
+			productName = Pods_TournesolAppiOS_TournesolAppiOSUITests;
+			productReference = 83E12A27A3644A204406741A8FA071A1 /* Pods-TournesolAppiOS-TournesolAppiOSUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDE5A67A9868AC571D3E76C2457E3312 /* Pods-TournesolAppiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48CC9C4FC340AA6E8CB5161C51E7DC3 /* Build configuration list for PBXNativeTarget "Pods-TournesolAppiOSTests" */;
+			buildPhases = (
+				6B1ACED6CD05057BD015B7E44E6D24E9 /* Headers */,
+				148E18359E9683F5272B3C98E97769C0 /* Sources */,
+				E1382E2E2068672B4004CFAED9BE2F09 /* Frameworks */,
+				C8168B5CDB8A52DD31AD61CD9967F7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233DF413FF9070F68CDE13B860B10CC4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TournesolAppiOSTests";
+			productName = Pods_TournesolAppiOSTests;
+			productReference = ED8648F71FD90701B669C20EF8555C2F /* Pods-TournesolAppiOSTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4A2F2FF26D08750610ED13B172D0DF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1302476D8ADAB7794AB99B0939C3E232 /* Pods-TournesolAppiOS */,
+				C45399C2FB56D5D30AA5E12D3AF983A0 /* Pods-TournesolAppiOS-TournesolAppiOSUITests */,
+				DDE5A67A9868AC571D3E76C2457E3312 /* Pods-TournesolAppiOSTests */,
+				59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BDF92A71355569DE250999F475AEE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5298A6E4F23E3B0FD3A5772CF51417D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6593104DE7347F7F77E12FDF0C3CE7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8168B5CDB8A52DD31AD61CD9967F7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032BA48E04AAF1073C677EB4975E343A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD772F68260C78596F8A9E4446A3E11 /* ActivityIndicator.swift in Sources */,
+				AA684F70E49825A7446BE5D9E04EDA04 /* Bundle+Extensions.swift in Sources */,
+				85D8A4FD3BF0EAD9E073FC85F07D4588 /* CoreDataAttributeDescription.swift in Sources */,
+				E8B96C6265ADA942B4E1CFDFF60C7266 /* CoreDataEntityDescription.swift in Sources */,
+				3BC616D4DE96B492801A10DDE16605FA /* CoreDataFetchIndexDescription.swift in Sources */,
+				8A367E7968F49DE75809DEEAF7C93A09 /* CoreDataModelDescription.swift in Sources */,
+				BF8F0BAB6903BAED5A2E48E36A9CBE99 /* Database.swift in Sources */,
+				22678260FA0A277CB122D8975F34F2AE /* DiskCache.swift in Sources */,
+				4F3C8C9972594B56514CB22C5B68C1AF /* Download.swift in Sources */,
+				3937DB558B7EC48DCD334969E23F956D /* Download+URLImageOptions.swift in Sources */,
+				F0C7921EAAD258979CD2DBBF311BD9A7 /* DownloadManager.swift in Sources */,
+				92E63CD273122BB65C47B89C93849660 /* DownloadProgress.swift in Sources */,
+				A72DAECEB2D5701C87DCEB10FF26145A /* DownloadPublisher.swift in Sources */,
+				305485E2330658F16EDB405760274F16 /* DownloadTask.swift in Sources */,
+				5F7143F8B07D8DDE8063974F5A959CC9 /* DownloadTypes.swift in Sources */,
+				1B1EF663300D1F0C807642865D947A35 /* File.swift in Sources */,
+				1F4D3B4A754CA236C1C1FAE67B31C693 /* FileIndex.swift in Sources */,
+				ADA113B8682E317DE298422DAD2ACB69 /* FileManager+Extensions.swift in Sources */,
+				9FFE7A2A477118A8B1B42E32D6E77C9C /* Image_Orientation+CGImagePropertyOrientation.swift in Sources */,
+				A594EAC9D43E1F7801DF1692BF50722B /* ImageDecoder.swift in Sources */,
+				ED8309FB873A7FC9DB2A52EA270D1604 /* ImageInfo.swift in Sources */,
+				EF57D152858E2AAFEC5CD9646BFC0232 /* InMemoryCache.swift in Sources */,
+				836150A36F8FE1342CFCB4CB567ADF5D /* Log.swift in Sources */,
+				6018DD911D00BA6CCE58F502FC618B58 /* ManagedObjectCodable.swift in Sources */,
+				D820CF99DBC879D610E13331F3E19A37 /* PlainDatabase.swift in Sources */,
+				49BCBBA5024C31AE070EB0B924BDC9DC /* RemoteContent.swift in Sources */,
+				1431D8D008C655427AFC2D81276D6DF3 /* RemoteContentLoadingState.swift in Sources */,
+				F9E193F56CB0CB5A67E7A06343624AE6 /* RemoteContentView.swift in Sources */,
+				5A15C80DEF28454205F991F4777FD8D7 /* RemoteContentViewLoadOptions+URLImageOptions_LoadOptions.swift in Sources */,
+				169C01985E359B9BA9207BF9D394ADBF /* RemoteImage.swift in Sources */,
+				590B1F443B71F52E172D79D9074BCE5D /* TransientImage.swift in Sources */,
+				25D8EB079B0BD50C6BD41541E01CBE1F /* URLImage.swift in Sources */,
+				E71F6E1DF168E4DE7CEF45CD8E5B1F59 /* URLImage-dummy.m in Sources */,
+				88FFBEE0DA59B1F492E0A8DA8AB36BC0 /* URLImageError.swift in Sources */,
+				C892C55DE3F35277705A944347AFBE43 /* URLImageOptions.swift in Sources */,
+				2CD6A77E3040C8BFE476C5B86C6F673D /* URLImageService.swift in Sources */,
+				DAE64CC964FBF2E16BB3B8E257606CE1 /* URLImageService+Cache.swift in Sources */,
+				E2666C414958DB48D49C669034BF6380 /* URLImageService+Decode.swift in Sources */,
+				ACD71580CFBE21CC0895BFD149BD7C7C /* URLImageService+Extension.swift in Sources */,
+				4B67F9BFE47933043874DA5688F7C357 /* URLImageService+RemoteImage.swift in Sources */,
+				0F3D51F2A85AC1C2BC75BF24808A8D98 /* URLSessionCoordinator.swift in Sources */,
+				93DE9FA231DC6B82F1206C22F424AD9C /* URLSessionDelegate.swift in Sources */,
+				463182C838ACBDDF40031F072BBF36AA /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148E18359E9683F5272B3C98E97769C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2F16D1C99CD45BEB225ABAC59E1353 /* Pods-TournesolAppiOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51CD39B72A8D6C7E09FE24838455CB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB0A89D1912B15DA7B782F47F415F3 /* Pods-TournesolAppiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD45F8938AAEF238293B8E0C681C129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E88F1825563E253E02F9E351CF2E5 /* Pods-TournesolAppiOS-TournesolAppiOSUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233DF413FF9070F68CDE13B860B10CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TournesolAppiOS";
+			target = 1302476D8ADAB7794AB99B0939C3E232 /* Pods-TournesolAppiOS */;
+			targetProxy = 60D3967846AA1DF1884498D734B73D66 /* PBXContainerItemProxy */;
+		};
+		45190F66088F6F0E65B2D109554A0E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = URLImage;
+			target = 59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */;
+			targetProxy = 184A32A0093BBF4D3D791EDF5EC2D49A /* PBXContainerItemProxy */;
+		};
+		E7B71F0806C5492AE409F60602734994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = URLImage;
+			target = 59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */;
+			targetProxy = 86C635A1EC83E6B79455C0B0766431FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18E45100A7B66FF965C23C2AA6AA9673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7836F69C047F6F8A4E9B4662A6C2FB /* Pods-TournesolAppiOS-TournesolAppiOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7703DABA2733BDD5A2948B18A5DD8D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFE0BEFFEB6498895484C726E3FEEA3 /* Pods-TournesolAppiOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TournesolAppiOSTests/Pods-TournesolAppiOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TournesolAppiOSTests/Pods-TournesolAppiOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E382CF06D31C56AFBC74E38E65BBC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E3EDBA6973C07EC740F0D65F347AB8 /* Pods-TournesolAppiOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81C4A586F080794D231074C1099F5531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CE7F74067451E45A4443F5B371FFBB /* Pods-TournesolAppiOS-TournesolAppiOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TournesolAppiOS-TournesolAppiOSUITests/Pods-TournesolAppiOS-TournesolAppiOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0E8EADA140226C279E4082D112416E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB495ABF5526C5E95B98FE85F64D6101 /* Pods-TournesolAppiOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC1ADEEA01EAD609E348823EA7D6A064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC42227E1605171C4365A10F4A0F2DA /* URLImage.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/URLImage/URLImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/URLImage/URLImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/URLImage/URLImage.modulemap";
+				PRODUCT_MODULE_NAME = URLImage;
+				PRODUCT_NAME = URLImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3F7708E8A1BC62D61BCC91CDB732886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D329B1E0E7C06E787F956D07E0F6A9C /* Pods-TournesolAppiOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TournesolAppiOSTests/Pods-TournesolAppiOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TournesolAppiOSTests/Pods-TournesolAppiOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9B3A3E89D8A05B547E72E7508C67735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBB5A250F80C2FD9C895D7180AE575C /* URLImage.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/URLImage/URLImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/URLImage/URLImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/URLImage/URLImage.modulemap";
+				PRODUCT_MODULE_NAME = URLImage;
+				PRODUCT_NAME = URLImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23AAB72664513306E05092939164ED42 /* Build configuration list for PBXNativeTarget "Pods-TournesolAppiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8EADA140226C279E4082D112416E7 /* Debug */,
+				7E382CF06D31C56AFBC74E38E65BBC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E8FA8652D0E05D942705510384E7D8 /* Build configuration list for PBXNativeTarget "Pods-TournesolAppiOS-TournesolAppiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C4A586F080794D231074C1099F5531 /* Debug */,
+				18E45100A7B66FF965C23C2AA6AA9673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48CC9C4FC340AA6E8CB5161C51E7DC3 /* Build configuration list for PBXNativeTarget "Pods-TournesolAppiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F7708E8A1BC62D61BCC91CDB732886 /* Debug */,
+				7703DABA2733BDD5A2948B18A5DD8D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7B484346DDF2BAE05403504B3B0D3B /* Build configuration list for PBXNativeTarget "URLImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B3A3E89D8A05B547E72E7508C67735 /* Debug */,
+				BC1ADEEA01EAD609E348823EA7D6A064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
