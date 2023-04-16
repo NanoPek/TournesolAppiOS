@@ -58,11 +58,16 @@ func callAPI(){
     task.resume()
 }
 
-func decodeAPI(completion: @escaping (Recommendation?) -> ()) {
+func decodeAPI(parameters: [URLQueryItem] , completion: @escaping (Recommendation?) -> ()) {
         
-    guard let url = URL(string: "https://api.tournesol.app/polls/videos/recommendations/") else{return}
+    
+    var url = URLComponents(string: "https://api.tournesol.app/polls/videos/recommendations/")!
+    url.queryItems = parameters
+    
+    var request = URLRequest(url: url.url!)
+    request.httpMethod = "GET"
 
-    let task = URLSession.shared.dataTask(with: url){
+    let task = URLSession.shared.dataTask(with: request){
         data, response, error in
         
         let decoder = JSONDecoder()

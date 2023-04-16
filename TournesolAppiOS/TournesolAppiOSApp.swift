@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TournesolAppiOSApp: App {
+    @StateObject private var modelData = ModelData()
+
     var body: some Scene {
         return WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }

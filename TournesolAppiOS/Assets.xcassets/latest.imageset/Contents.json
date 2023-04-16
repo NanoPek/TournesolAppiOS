@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "LogoSmall.svg",
+      "filename" : "svgviewer-output 1azdaz.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,12 +12,11 @@
           "value" : "dark"
         }
       ],
-      "filename" : "LogoSmallDark.svg",
+      "filename" : "aa.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "LogoMedium.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -28,7 +27,6 @@
           "value" : "dark"
         }
       ],
-      "filename" : "LogoMediumDark.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
