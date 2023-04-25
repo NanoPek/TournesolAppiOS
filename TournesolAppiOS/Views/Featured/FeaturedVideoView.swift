@@ -33,6 +33,7 @@ struct FeaturedVideoView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                     })
+                    .cornerRadius(5, corners: [.topLeft, .topRight])
                     Text(durationToString(duration: video.metadata.duration))
                         .padding(EdgeInsets(
                             top: 1,
@@ -83,7 +84,9 @@ struct FeaturedVideoView: View {
         .onTapGesture {
             playInYoutube(youtubeId: video.metadata.video_id)
         }
-        
+        .contextMenu {
+            VideoContextMenu(video: video)
+        }
     }
 }
 

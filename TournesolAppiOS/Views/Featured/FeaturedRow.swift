@@ -21,11 +21,13 @@ struct FeaturedRow: View {
             }
             .padding(.top, 20)
             .padding(.bottom, 10)
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 10) {
-                    ForEach(items) { video in
-                        FeaturedVideoView(video: video)
-                            .frame(maxWidth: 165, maxHeight: 185)
+            ScrollView(.horizontal) {
+                LazyHStack(spacing: 10) {
+                    ForEach(items) {video in
+                        ZStack {
+                            FeaturedVideoView(video: video)
+                                .frame(maxWidth: 165, maxHeight: 185)
+                        }
                     }
                 }
             }

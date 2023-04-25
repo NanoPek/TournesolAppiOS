@@ -1,14 +1,17 @@
 //
-//  VideoView.swift
+//  RatedVideoView.swift
 //  TournesolAppiOS
 //
-//  Created by Jérémie on 12/03/2023.
+//  Created by Jérémie on 24/04/2023.
 //
 
+import Foundation
 import SwiftUI
 import URLImage
 
-struct VideoView: View {
+struct RatedVideoView: View {
+    let video: RatedTournesolVideo
+    let n_comparisons: Int?
     
     func playInYoutube(youtubeId: String) -> Void {
         if let youtubeURL = URL(string: "youtube://\(youtubeId)"),
@@ -21,7 +24,6 @@ struct VideoView: View {
         }
     }
     
-    var video: TournesolVideo
     var body: some View {
         let imageUrl =  URL(string:"https://i.ytimg.com/vi/" + video.metadata.video_id + "/mqdefault.jpg")!
         VStack(alignment: .leading) {
@@ -51,10 +53,6 @@ struct VideoView: View {
                     VStack(alignment: .center, spacing: 2) {
                         Image("Logo")
                             .imageScale(.medium)
-                        Text(String(format: "%02d", Int(video.tournesol_score)))
-                            .font(.largeTitle)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.accentColor)
                     }
                 }
                 VStack(alignment: .leading, spacing: 5) {
@@ -67,15 +65,10 @@ struct VideoView: View {
                          formatDateDisplay(dateString: String(video.metadata.publication_date.prefix(10))))
                         .font(.footnote)
                         .foregroundColor(Color(UIColor.secondaryLabel))
-                    HStack(alignment: .top, spacing: 0) {
-                        Text(String(video.n_comparisons) + " comparisons • ")
-                            .font(.caption)
+                    if (n_comparisons) != nil {
+                        Text(String(n_comparisons!) + " comparisons" + " by you" )
+                            .font(.footnote)
                             .foregroundColor(Color(UIColor.secondaryLabel))
-                            .italic()
-                        Text(String(video.n_contributors) + " contributors")
-                            .font(.caption)
-                            .foregroundColor(Color(UIColor.secondaryLabel))
-                            .italic()
                     }
                 }
                 .foregroundColor(Color.gray).shadow(radius: 0)
@@ -90,9 +83,6 @@ struct VideoView: View {
         .cornerRadius(10)
         .onTapGesture {
             playInYoutube(youtubeId: video.metadata.video_id)
-        }
-        .contextMenu {
-            VideoContextMenu(video: video)
         }
     }
 }

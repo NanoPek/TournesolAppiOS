@@ -58,12 +58,11 @@ func callAPI(){
     task.resume()
 }
 
-func decodeAPI(parameters: [URLQueryItem] , completion: @escaping (Recommendation?) -> ()) {
-        
+func decodeAPI(parameters: [URLQueryItem] , urlString: String, completion: @escaping (Recommendation?) -> ()) {
     
-    var url = URLComponents(string: "https://api.tournesol.app/polls/videos/recommendations/")!
+    var url = URLComponents(string: urlString)!
     url.queryItems = parameters
-    
+        
     var request = URLRequest(url: url.url!)
     request.httpMethod = "GET"
 
@@ -83,4 +82,3 @@ func decodeAPI(parameters: [URLQueryItem] , completion: @escaping (Recommendatio
     }
     task.resume()
 }
-

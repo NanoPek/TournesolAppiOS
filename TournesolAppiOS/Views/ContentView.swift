@@ -15,7 +15,8 @@ struct ContentView: View {
     
     enum Tab {
         case featured
-        case list
+        case recommendations
+        case profile
     }
     
     var body: some View {
@@ -28,9 +29,15 @@ struct ContentView: View {
             
             RecommendationsHome()
                 .tabItem {
-                    Label("List", systemImage: "list.bullet")
+                    Label("All videos", systemImage: "play.rectangle.on.rectangle")
                 }
-                .tag(Tab.featured)
+                .tag(Tab.recommendations)
+            
+            LoginHome()
+                .tabItem {
+                    Label("My ratings", systemImage: "person.badge.shield.checkmark")
+                }
+                .tag(Tab.profile)
         }
     }
 }

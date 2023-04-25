@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		0CB7DE8432B09132CD7DA64B /* Pods_TournesolAppiOS_TournesolAppiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0507CFCC6229F1B8AC03FA31 /* Pods_TournesolAppiOS_TournesolAppiOSUITests.framework */; };
 		0DB79C40F248A2AAD0CC065F /* Pods_TournesolAppiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623AC90389D4A337A1801FFB /* Pods_TournesolAppiOS.framework */; };
+		3E00E7A229F6FBB300C1167A /* RatedQuerier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E00E7A129F6FBB300C1167A /* RatedQuerier.swift */; };
+		3E00E7A429F6FE3A00C1167A /* RatedVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E00E7A329F6FE3A00C1167A /* RatedVideoView.swift */; };
+		3E00E7A629F6FEF900C1167A /* RatedVideoContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E00E7A529F6FEF900C1167A /* RatedVideoContextMenu.swift */; };
+		3E00E7A829F7002B00C1167A /* MyRatedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E00E7A729F7002B00C1167A /* MyRatedItems.swift */; };
+		3E00E7AB29F726C100C1167A /* LoginPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E00E7AA29F726C100C1167A /* LoginPages.swift */; };
+		3E00E7AF29F73B5D00C1167A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E00E7AE29F73B5D00C1167A /* LoginViewModel.swift */; };
+		3E00E7B129F7546F00C1167A /* AddVideoFromLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E00E7B029F7546F00C1167A /* AddVideoFromLink.swift */; };
 		3E0F416529EC1F4C00A69DE6 /* FeaturedHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F416429EC1F4C00A69DE6 /* FeaturedHome.swift */; };
 		3E0F416729EC224B00A69DE6 /* FeaturedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F416629EC224B00A69DE6 /* FeaturedRow.swift */; };
 		3E0F416929EC22D000A69DE6 /* FeaturesCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F416829EC22D000A69DE6 /* FeaturesCategories.swift */; };
@@ -22,6 +29,10 @@
 		3E37796629BE7F7E00094242 /* TournesolAppiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37796529BE7F7E00094242 /* TournesolAppiOSUITestsLaunchTests.swift */; };
 		3E37797729BE892B00094242 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37797629BE892B00094242 /* Recommendation.swift */; };
 		3E37797B29BE8B5300094242 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37797A29BE8B5300094242 /* VideoView.swift */; };
+		3E9C1EB529F422D200ED4820 /* LoginHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C1EB429F422D200ED4820 /* LoginHome.swift */; };
+		3E9C1EBA29F4382600ED4820 /* ListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C1EB929F4382600ED4820 /* ListHelper.swift */; };
+		3E9C1EBC29F438D900ED4820 /* Querier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C1EBB29F438D900ED4820 /* Querier.swift */; };
+		3E9C1EBE29F5379900ED4820 /* VideoContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C1EBD29F5379900ED4820 /* VideoContextMenu.swift */; };
 		3EC80DB629EC57A900D162A9 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC80DB529EC57A900D162A9 /* ProfileHost.swift */; };
 		3EC80DB829EC57D900D162A9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC80DB729EC57D900D162A9 /* ModelData.swift */; };
 		3EC80DBA29EC580A00D162A9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC80DB929EC580A00D162A9 /* Profile.swift */; };
@@ -54,6 +65,13 @@
 /* Begin PBXFileReference section */
 		0507CFCC6229F1B8AC03FA31 /* Pods_TournesolAppiOS_TournesolAppiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TournesolAppiOS_TournesolAppiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3766C3C9E75D9E0EA79DE7D2 /* Pods-TournesolAppiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournesolAppiOS.release.xcconfig"; path = "Target Support Files/Pods-TournesolAppiOS/Pods-TournesolAppiOS.release.xcconfig"; sourceTree = "<group>"; };
+		3E00E7A129F6FBB300C1167A /* RatedQuerier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedQuerier.swift; sourceTree = "<group>"; };
+		3E00E7A329F6FE3A00C1167A /* RatedVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedVideoView.swift; sourceTree = "<group>"; };
+		3E00E7A529F6FEF900C1167A /* RatedVideoContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedVideoContextMenu.swift; sourceTree = "<group>"; };
+		3E00E7A729F7002B00C1167A /* MyRatedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRatedItems.swift; sourceTree = "<group>"; };
+		3E00E7AA29F726C100C1167A /* LoginPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPages.swift; sourceTree = "<group>"; };
+		3E00E7AE29F73B5D00C1167A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3E00E7B029F7546F00C1167A /* AddVideoFromLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoFromLink.swift; sourceTree = "<group>"; };
 		3E0F416429EC1F4C00A69DE6 /* FeaturedHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedHome.swift; sourceTree = "<group>"; };
 		3E0F416629EC224B00A69DE6 /* FeaturedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedRow.swift; sourceTree = "<group>"; };
 		3E0F416829EC22D000A69DE6 /* FeaturesCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesCategories.swift; sourceTree = "<group>"; };
@@ -71,6 +89,10 @@
 		3E37796529BE7F7E00094242 /* TournesolAppiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournesolAppiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3E37797629BE892B00094242 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
 		3E37797A29BE8B5300094242 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		3E9C1EB429F422D200ED4820 /* LoginHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHome.swift; sourceTree = "<group>"; };
+		3E9C1EB929F4382600ED4820 /* ListHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHelper.swift; sourceTree = "<group>"; };
+		3E9C1EBB29F438D900ED4820 /* Querier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Querier.swift; sourceTree = "<group>"; };
+		3E9C1EBD29F5379900ED4820 /* VideoContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContextMenu.swift; sourceTree = "<group>"; };
 		3EC80DB529EC57A900D162A9 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		3EC80DB729EC57D900D162A9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		3EC80DB929EC580A00D162A9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
@@ -162,6 +184,7 @@
 		3E37794729BE7F7C00094242 /* TournesolAppiOS */ = {
 			isa = PBXGroup;
 			children = (
+				3E9C1EB629F4359D00ED4820 /* Components */,
 				3E37618129EB410E007BB55F /* Info.plist */,
 				3E37798029BE8FB400094242 /* Views */,
 				3E37797D29BE8CFA00094242 /* Model */,
@@ -207,6 +230,10 @@
 				3E0F416829EC22D000A69DE6 /* FeaturesCategories.swift */,
 				3EC80DB729EC57D900D162A9 /* ModelData.swift */,
 				3EC80DB929EC580A00D162A9 /* Profile.swift */,
+				3E9C1EB929F4382600ED4820 /* ListHelper.swift */,
+				3E00E7A729F7002B00C1167A /* MyRatedItems.swift */,
+				3E00E7AA29F726C100C1167A /* LoginPages.swift */,
+				3E00E7AE29F73B5D00C1167A /* LoginViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -214,12 +241,34 @@
 		3E37798029BE8FB400094242 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3E9C1EB329F422BD00ED4820 /* Login */,
 				3EC80DB429EC579C00D162A9 /* Profile */,
 				3E0F416329EC1F3400A69DE6 /* Featured */,
 				3EE8722E29EB4729004A1CCD /* Recommendations */,
 				3E37794A29BE7F7C00094242 /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3E9C1EB329F422BD00ED4820 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3E00E7A129F6FBB300C1167A /* RatedQuerier.swift */,
+				3E9C1EB429F422D200ED4820 /* LoginHome.swift */,
+				3E00E7A329F6FE3A00C1167A /* RatedVideoView.swift */,
+				3E00E7A529F6FEF900C1167A /* RatedVideoContextMenu.swift */,
+				3E00E7B029F7546F00C1167A /* AddVideoFromLink.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3E9C1EB629F4359D00ED4820 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C1EBB29F438D900ED4820 /* Querier.swift */,
+				3E9C1EBD29F5379900ED4820 /* VideoContextMenu.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		3EC80DB429EC579C00D162A9 /* Profile */ = {
@@ -495,17 +544,28 @@
 				3EE8723629EB595A004A1CCD /* LanguageFilter.swift in Sources */,
 				3EC80DBA29EC580A00D162A9 /* Profile.swift in Sources */,
 				3E37797B29BE8B5300094242 /* VideoView.swift in Sources */,
+				3E00E7B129F7546F00C1167A /* AddVideoFromLink.swift in Sources */,
+				3E9C1EBA29F4382600ED4820 /* ListHelper.swift in Sources */,
 				3E0F416529EC1F4C00A69DE6 /* FeaturedHome.swift in Sources */,
+				3E9C1EBC29F438D900ED4820 /* Querier.swift in Sources */,
+				3E9C1EB529F422D200ED4820 /* LoginHome.swift in Sources */,
 				3EC80DB829EC57D900D162A9 /* ModelData.swift in Sources */,
+				3E00E7AF29F73B5D00C1167A /* LoginViewModel.swift in Sources */,
 				3EE8723029EB473E004A1CCD /* RecommendationsHome.swift in Sources */,
 				3E0F416929EC22D000A69DE6 /* FeaturesCategories.swift in Sources */,
 				3EC80DB629EC57A900D162A9 /* ProfileHost.swift in Sources */,
 				3E37794B29BE7F7C00094242 /* ContentView.swift in Sources */,
+				3E00E7A829F7002B00C1167A /* MyRatedItems.swift in Sources */,
+				3E9C1EBE29F5379900ED4820 /* VideoContextMenu.swift in Sources */,
+				3E00E7AB29F726C100C1167A /* LoginPages.swift in Sources */,
 				3E0F416729EC224B00A69DE6 /* FeaturedRow.swift in Sources */,
+				3E00E7A229F6FBB300C1167A /* RatedQuerier.swift in Sources */,
+				3E00E7A629F6FEF900C1167A /* RatedVideoContextMenu.swift in Sources */,
 				3EE8723229EB4FD6004A1CCD /* TaskFilter.swift in Sources */,
 				3E0F416B29EC2C5000A69DE6 /* FeaturedVideoView.swift in Sources */,
 				3EE8723429EB5337004A1CCD /* DateHelper.swift in Sources */,
 				3E37797729BE892B00094242 /* Recommendation.swift in Sources */,
+				3E00E7A429F6FE3A00C1167A /* RatedVideoView.swift in Sources */,
 				3EC80DBE29EC595000D162A9 /* ProfileEditor.swift in Sources */,
 				3EC80DBC29EC58A200D162A9 /* ProfileSummary.swift in Sources */,
 				3E37794929BE7F7C00094242 /* TournesolAppiOSApp.swift in Sources */,
